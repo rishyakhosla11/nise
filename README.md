@@ -17,17 +17,17 @@
 ---
 
 ## Project Structure
-
 src/
-├── components/ # Reusable UI components
-│ └── sections/ # Task-focused UI (e.g. FoodSection, CleaningSection)
-│ └── ui/ # Low-level shared components (e.g. Tooltip, Toast)
-├── hooks/ # Custom React hooks (e.g. use-toast)
-├── lib/ # Utility functions
-├── pages/ # Top-level routed pages (Home, Index, NotFound)
-├── App.tsx # Root component with routing and providers
-├── main.tsx # Entry point
-├── index.css # Global Tailwind and base styles
+├── components/         # Reusable UI components  
+│   └── sections/       # Task-focused UI (e.g. FoodSection, CleaningSection)  
+│       └── ui/         # Low-level shared components (e.g. Tooltip, Toast)  
+├── hooks/              # Custom React hooks (e.g. use-toast)  
+├── lib/                # Utility functions  
+├── pages/              # Top-level routed pages (Home, Index, NotFound)  
+├── App.tsx             # Root component with routing and providers  
+├── main.tsx            # Entry point  
+└── index.css           # Global Tailwind and base styles
+
 
 ## Getting Started
 
